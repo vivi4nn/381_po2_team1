@@ -1,0 +1,68 @@
+/* Week 4 deliverables */
+
+
+h1 {
+	font-family: 'Margarine', cursive;
+	color:#B19982;
+	font-size:3em;
+}
+
+h2 {
+	font-family: 'Margarine', cursive;
+	color:#000000;
+	font-size:1.3em;
+}
+
+body {
+	background-color:#DFF2F6;
+}
+
+div{
+	background-color:#ffffff;
+}
+
+p {
+	font-family: 'Arimo', sans-serif;
+	font-size:0.8em;
+}
+
+
+.thumb {
+	border:5px solid #8BD4E6;	/*product images have light blue borders*/
+}
+
+.icon{    									/*styling for interactive icons*/
+	border-radius: 50px;
+	height:6em;
+	width:6em;
+	background-color:#8BD4E6;
+	background-repeat:no-repeat;
+	background-size:70%;
+	background-position:center;
+	display:inline-block;
+}
+
+.cart{
+	background-image:url('../img/icon_cart.png');
+}
+
+.create{    								
+	background-image:url('../img/icon_create.png');
+}
+
+.account{    								
+	background-image:url('../img/icon_account.png');
+}
+
+.product{    								
+	background-image:url('../img/icon_product.png');
+}
+
+.icon:hover {
+	background-color:#EC6826;
+} 
+
+
+
+
+
