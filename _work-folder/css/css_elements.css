@@ -18,10 +18,16 @@ h2 {
 	color:#000000;
 	font-size:1.1em;
 }
+h3{
+	font-size:1.3em;
+	font-family: 'Arimo', sans-serif;
+	line-height:1.4em;
+}
 
 body {
 	background-color:#DFF2F6;
 	padding:3%;
+
 }
 
 
@@ -30,6 +36,12 @@ p {
 	font-size:0.8em;
 }
 
+/* css for links was taken from http://www.w3schools.com/css/css_link.asp*/
+
+a:link {color:#89D4E6; text-decoration:none; font-weight:bold;}      /* unvisited link */
+a:visited {color:#3BA1B2;}  /* visited link */
+a:hover {color:#EC6826;}  /* mouse over link */
+a:active {color:#89D4E6;}  /* selected link */
 
 
 
@@ -61,7 +73,7 @@ p {
 }
 
 .col-75 {
-  width: 75%;
+  width: 74%;
 }
 .col-12{
 	width:12.5%;
@@ -156,7 +168,7 @@ p {
 
 }
 .content{
-	padding:1em;
+	padding:1%;
 }
 
 
@@ -172,13 +184,21 @@ p {
 	text-align:center;
 }
 
+.sidebar-links{
+	font-size:1.3em;
+	font-family: 'Arimo', sans-serif;
+	list-style:none;
+	line-height:1.4em;
+}
+
+
 
 /*
 Responsive Stuff*/
 
 
 @media screen and (max-width: 768px) { 
-	.icon{    									/*styling for interactive icons*/
+	.icon{    								
 		height:3rem;
 		width:3rem;
 		margin:0.2em;
@@ -201,6 +221,14 @@ Responsive Stuff*/
 	.promo-banner {
 		font-size:1.6em;
 	}
+	.sidebar-links{
+		margin-left:-10px;
+		font-size:1.3em;
+		font-family: 'Arimo', sans-serif;
+		list-style:none;
+		line-height:1.4em;
+}
+
  }
 
 
@@ -209,7 +237,7 @@ Responsive Stuff*/
 
 @media screen and (max-width: 520px) { 
 
-	.icon{    									/*styling for interactive icons*/
+	.icon{    							
 		height:2.5rem;
 		width:2.5rem;
 		margin:0.3em;
@@ -223,14 +251,29 @@ Responsive Stuff*/
 		padding-right:0%;
 	}
 	.product-list li{
-	display:inline-block;
-	width:40%;
-	padding:2%;
-	text-align:center;
+		display:inline-block;
+		width:40%;
+		padding:2%;
+		text-align:center;
 	}
 		.promo-banner {
 		font-size:1.3em;
+	}
 
+	.sidebar-links{
+		margin-left:-10px;
+		font-size:1.5em;
+		font-family: 'Arimo', sans-serif;
+		line-height:1.4em;
+
+	}
+
+	.sidebar-col{
+		width:100%;
+	}
+	.stretch{
+		width:95%;
+		padding:3%;
 	}
 
 } 
