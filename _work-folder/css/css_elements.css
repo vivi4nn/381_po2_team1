@@ -39,7 +39,7 @@ p {
 /* css for links was taken from http://www.w3schools.com/css/css_link.asp*/
 
 a:link {color:#89D4E6; text-decoration:none; font-weight:bold;}      /* unvisited link */
-a:visited {color:#3BA1B2;}  /* visited link */
+a:visited {color:#89D4E6;}  /* visited link */
 a:hover {color:#EC6826;}  /* mouse over link */
 a:active {color:#89D4E6;}  /* selected link */
 
@@ -49,9 +49,9 @@ a:active {color:#89D4E6;}  /* selected link */
 
 .grid{
 	width:100%;
-	background-color:#ffffff;
 	margin:0px;
 	padding:0px;
+	background-color:#ffffff;
 }
 
 [class*='col-'] {
@@ -89,9 +89,27 @@ a:active {color:#89D4E6;}  /* selected link */
   clear: both;
 }
 
+/*found this from http://stackoverflow.com/questions/20626310/css-background-color-doesnt-work-unless-a-height-is-specified-or-its-floated
+*/
 
 
 /*class styling (ie. navbar)*/
+
+.footer{
+	background-color:#896D56;
+	padding:1%;
+	font-family: 'Arimo', sans-serif;
+	line-height:1.5rem;
+	overflow:hidden;
+	color:#ffffff;
+}
+
+
+.footer-col{
+	padding-left:5%;
+	font-size:0.8rem;
+
+}
 
 
 .icon-wrapper{
@@ -165,6 +183,7 @@ a:active {color:#89D4E6;}  /* selected link */
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-position:center;
+	background-color:#ffffff;
 }
 
 
@@ -178,6 +197,7 @@ a:active {color:#89D4E6;}  /* selected link */
 }
 .content{
 	padding:1%;
+	background-color:#ffffff;
 }
 
 
@@ -210,7 +230,6 @@ Responsive Stuff*/
 
 	.grid{
 	width:1100px;
-	background-color:#ffffff;
 	margin:0px;
 	padding:0px;
 	margin-left:auto;
@@ -309,6 +328,14 @@ Responsive Stuff*/
 		width:100%;
 		text-align:center;
 	}
+	.footer-col{
+		padding-left:7%;
+	}
+	.footer-col{
+	padding-left:10%;
+	font-size:1rem;
+
+}
 
 } 
 
