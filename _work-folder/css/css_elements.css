@@ -177,6 +177,22 @@ a:active {color:#89D4E6;}  /* selected link */
 	font-size:2em;
 
 }
+
+.event-box{
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+	margin: 5%;
+	padding: 10%;
+	background-color: #F1EBE1;
+	background-size: auto;
+	text-align: center;
+	font-family: 'Margarine', cursive;
+	color:yellow;
+	font-size: 3em;
+
+}
+
 .navigation-wrapper{
 /*	background-image:url('../img/header_bg.png');*/
 	text-align:right;
