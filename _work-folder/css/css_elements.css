@@ -16,7 +16,7 @@ h1 {
 h2 {
 	font-family: 'Margarine', cursive;
 	color:#000000;
-	font-size:1.1em;
+	font-size:1em;
 }
 h3{
 	font-size:1.3em;
@@ -73,7 +73,9 @@ a:active {color:#89D4E6;}  /* selected link */
 }
 
 .col-75 {
-  width: 74%;
+  width: 70%;
+  padding-right:5%;
+  padding-bottom:3%;
 }
 .col-12{
 	width:12.5%;
@@ -118,10 +120,13 @@ a:active {color:#89D4E6;}  /* selected link */
 }
 
 .thumb {
-	border:5px solid #8BD4E6;
+	border:1px solid #8BD4E6;
 		/*product images have light blue borders*/
 }
 
+.thumb:hover{
+	border-color:#EC6826;
+}
 .icon{    									/*styling for interactive icons*/
 	border-radius: 50px;
 	height:4.3rem;
@@ -163,21 +168,33 @@ a:active {color:#89D4E6;}  /* selected link */
 	max-width:210px;
 }
 
+
+.cart{
+text-align:center;
+}
 .promo-banner{
-	border-width:3px;
+background-image:url('../img/banner.jpg');
+background-repeat:no-repeat;
+	border-width:1px;
 	border-style:solid;
-	border-color:#B29983;
-	margin:3%;
-	padding:5%;
+	border-color:#000000;
+	margin:2%;
+	padding:2.5%;
 	background-color:#F1EBE1;
-	background-size:600px;
+	background-size:100% auto;
 	text-align:center;
 	font-family: 'Margarine', cursive;
-	color:#EC6826;
-	font-size:2em;
-
+	color:#000000;
 }
 
+.banner-text{
+	color:#000000;
+	font-size:2rem;
+}
+
+.banner-subtext{
+	font-size:1.7rem;
+}
 .event-box{
 	border-width: 3px;
 	border-style: solid;
@@ -215,6 +232,7 @@ a:active {color:#89D4E6;}  /* selected link */
 	padding:1%;
 	background-color:#ffffff;
 }
+
 
 
 .product-list ul{
@@ -280,6 +298,8 @@ Responsive Stuff*/
 	}
 	.promo-banner {
 		font-size:1.6em;
+		background-size:auto 100%;
+		background-position:center;
 	}
 	.sidebar-links{
 		margin-left:-10px;
