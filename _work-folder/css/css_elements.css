@@ -1,9 +1,9 @@
 /* Week 4 deliverables */
 
+
 img {
 	width:100%;
 	height:100%;
-	max-width:247px;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h3{
 }
 
 body {
-	background-color:#DFF2F6;
+	background-color:#d2edf3;
 	padding:3%;
 
 }
@@ -44,14 +44,19 @@ a:hover {color:#EC6826;}  /* mouse over link */
 a:active {color:#89D4E6;}  /* selected link */
 
 
+.glow{
 
+		box-shadow: 0px 0px 20px #97cfdc;
+}
 /*Grid stuff*/
 
 .grid{
 	width:100%;
 	margin:0px;
 	padding:0px;
-	background-color:#ffffff;
+	background-color:#f9f9f9;
+
+
 }
 
 [class*='col-'] {
@@ -84,6 +89,12 @@ a:active {color:#89D4E6;}  /* selected link */
 .col-100{
 	width:100%;
 }
+.col-40{
+	width:40%;
+}
+.col-60{
+	width:60%;
+}
 
 .grid:after {
   content: "";
@@ -91,11 +102,58 @@ a:active {color:#89D4E6;}  /* selected link */
   clear: both;
 }
 
+form label {
+
+	margin-top: 1rem;
+	line-height:2rem;
+	font-family: 'Arimo', sans-serif;
+}
+
+
+.button{
+	background-color:#8bd4e6;
+	border-radius:20px;
+	font-size:1.5rem;
+	border-style:none;
+	font-family: 'Arimo', sans-serif;
+	padding:10px;
+	color:#ffffff;
+	margin-top:1%;
+}
+
+.button:hover{
+	background-color:#ec6826;
+
+}
 /*found this from http://stackoverflow.com/questions/20626310/css-background-color-doesnt-work-unless-a-height-is-specified-or-its-floated
 */
 
 
 /*class styling (ie. navbar)*/
+.detail-photo{
+	width:90%;
+	padding:20px;
+}
+.body-text{
+	width:90%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:5%;
+	font-family: 'Arimo', sans-serif;
+	font-size:0.8rem;
+	line-height:1.1rem;
+	list-style:none;
+	padding-bottom:5%;
+}
+
+.more-detail{
+
+	margin-left:5%;
+	font-family: 'Arimo', sans-serif;
+	font-size:0.8rem;
+	line-height:1.4rem;
+	padding-bottom:5%;
+}
 
 .footer{
 	background-color:#896D56;
@@ -119,8 +177,12 @@ a:active {color:#89D4E6;}  /* selected link */
 	padding-right:30px;
 }
 
+.misc-img{
+max-width:250px;
+}
 .thumb {
 	border:1px solid #8BD4E6;
+		max-width:247px;
 		/*product images have light blue borders*/
 }
 
@@ -169,7 +231,7 @@ a:active {color:#89D4E6;}  /* selected link */
 }
 
 
-.cart{
+.cart-text{
 text-align:center;
 }
 .promo-banner{
@@ -211,7 +273,7 @@ background-repeat:no-repeat;
 }
 
 .navigation-wrapper{
-/*	background-image:url('../img/header_bg.png');*/
+
 	text-align:right;
 	background-repeat:no-repeat;
 	background-size:100%;
@@ -230,7 +292,7 @@ background-repeat:no-repeat;
 }
 .content{
 	padding:1%;
-	background-color:#ffffff;
+	background-color:#f9f9f9;
 }
 
 
@@ -280,6 +342,7 @@ Responsive Stuff*/
 		height:3.5rem;
 		width:3.5rem;
 		margin:0.45em;
+
 	}
 	.nav-text{
 		font-size:1.1em;
@@ -317,7 +380,11 @@ Responsive Stuff*/
 
 
 
-@media screen and (max-width: 520px) { 
+@media screen and (max-width: 480px) { 
+	.detail-photo{
+	width:100%;
+	padding:0px;
+	}
 
 	.icon{    							
 		height:3.6rem;
@@ -356,7 +423,8 @@ Responsive Stuff*/
 	.sidebar-col{
 		width:100%;
 	}
-	.stretch{
+
+	.stretch {
 		width:95%;
 		padding:3%;
 	}
