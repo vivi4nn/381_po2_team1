@@ -228,7 +228,7 @@ max-width:250px;
 }
 .knitkittylogo{
 	width:70%;
-	max-width:210px;
+	max-width:190px;
 }
 
 
@@ -238,7 +238,7 @@ text-align:center;
 .promo-banner{
 background-image:url('../img/banner.jpg');
 background-repeat:no-repeat;
-	border-width:1px;
+	border-width:0px;
 	border-style:solid;
 	border-color:#000000;
 	margin:2%;
@@ -373,7 +373,7 @@ Responsive Stuff*/
 		line-height:1.4em;
 	}
 	.knitkittylogo{
-		width:90%;
+		width:65%;
 	}
  }
 
