@@ -22,8 +22,16 @@ h3{
 	font-size:1.3em;
 	font-family: 'Arimo', sans-serif;
 	line-height:1.4em;
+
 }
 
+.footer-h3{
+	line-height:0rem;
+	font-size:1.05rem;
+	padding:0px;
+	padding-top:2%;
+	margin-bottom:0px;
+}
 body {
 	background-color:#d2edf3;
 	padding:3%;
@@ -92,6 +100,9 @@ a:active {color:#89D4E6;}  /* selected link */
 .col-40{
 	width:40%;
 }
+.col-48{
+	width:41%;
+}
 .col-60{
 	width:60%;
 }
@@ -109,16 +120,18 @@ form label {
 	font-family: 'Arimo', sans-serif;
 }
 
-
+.right{
+	text-align:right;
+}
 .button{
 	background-color:#8bd4e6;
 	border-radius:20px;
-	font-size:1.5rem;
+	font-size:1rem;
 	border-style:none;
 	font-family: 'Arimo', sans-serif;
-	padding:10px;
+	padding:8px;
 	color:#ffffff;
-	margin-top:1%;
+	margin-top:3%;
 }
 
 .button:hover{
@@ -130,15 +143,27 @@ form label {
 
 
 /*class styling (ie. navbar)*/
+
+.review-title{
+	margin:0px;
+}
+.review-names{
+	text-align:left;
+}
+.star-rating{
+	width:25px;
+}
+
+.reviews{
+	padding-left:3rem;
+}
 .detail-photo{
 	width:90%;
 	padding:20px;
 }
 .body-text{
 	width:90%;
-	padding-left:5%;
 	padding-right:5%;
-	padding-top:5%;
 	font-family: 'Arimo', sans-serif;
 	font-size:0.8rem;
 	line-height:1.1rem;
@@ -170,7 +195,11 @@ form label {
 	font-size:0.8rem;
 
 }
+.email-signup{
+	padding:0.5rem;
+	width:40%;
 
+}
 
 .icon-wrapper{
 	padding-top:10px;
@@ -199,6 +228,10 @@ max-width:250px;
 	background-position:center;
 	display:inline-block;
 	margin:1em;
+}
+
+.active{
+	background-color:#EC6826;
 }
 
 .cart{
@@ -230,7 +263,9 @@ max-width:250px;
 	width:70%;
 	max-width:190px;
 }
-
+.social-media{
+	width:30px;
+}
 
 .cart-text{
 text-align:center;
@@ -250,11 +285,41 @@ background-repeat:no-repeat;
 	color:#000000;
 }
 
+.bubble{
+	background-color:#ffffff;
+		border-radius:20px;
+		padding:1rem;
+		opacity:0.9;
+		width:80%;
+		margin-left:auto;
+		margin-right:auto;
+
+}
+.promo-banner2{
+background-image:url('../img/money_bg.png');
+background-repeat:repeat;
+	border-width:0px;
+	border-style:solid;
+	border-color:#000000;
+	margin:2%;
+	padding:2.5%;
+		background-color:#F1EBE1;
+	text-align:center;
+	font-family: 'Margarine', cursive;
+	color:#000000;
+	padding-bottom:2.5%;
+	height:170px;
+}
+
+
 .banner-text{
 	color:#000000;
 	font-size:2rem;
 }
-
+.banner-text-white{
+	color:#ffffff;
+	font-size:2rem;
+}
 .banner-subtext{
 	font-size:1.7rem;
 }
@@ -333,12 +398,23 @@ Responsive Stuff*/
 	margin-right:auto;
 }
 
+.footer{
+	width:1100px;
+	margin:0px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 }
 
 
 
 @media screen and (max-width: 768px) { 
+	.bubble{
+		font-size:1rem;
+		padding:0.4rem;
+	}
 	.icon{    								
 		height:3.5rem;
 		width:3.5rem;
@@ -365,6 +441,12 @@ Responsive Stuff*/
 		background-size:auto 100%;
 		background-position:center;
 	}
+
+	.promo-banner2 {
+		font-size:1.6em;
+		background-size:auto 100%;
+		background-position:center;
+	}
 	.sidebar-links{
 		margin-left:-10px;
 		font-size:1.3em;
@@ -385,6 +467,11 @@ Responsive Stuff*/
 	.detail-photo{
 	width:100%;
 	padding:0px;
+	}
+	.bubble{
+		font-size:1.1rem;
+		padding:1rem;
+		width:50%;
 	}
 
 	.icon{    							
@@ -412,6 +499,9 @@ Responsive Stuff*/
 		.promo-banner {
 		font-size:1.3em;
 	}
+		.promo-banner2 {
+		font-size:1.3em;
+	}
 
 	.sidebar-links{
 		margin-left:-10px;
@@ -429,6 +519,11 @@ Responsive Stuff*/
 		width:95%;
 		padding:3%;
 	}
+
+	.stretch-banner{
+		width:91%;
+
+	}
 	.kitty-logo{
 		width:100%;
 		text-align:center;
@@ -442,6 +537,10 @@ Responsive Stuff*/
 
 }
 
+	.right{
+		text-align:left;
+
+	}
 } 
 
 
