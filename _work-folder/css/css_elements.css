@@ -134,15 +134,76 @@ form label {
 	margin-top:3%;
 }
 
+.cart-thumb{
+
+}
+.button3{
+	background-color:#ffffff;
+	border-radius:20px;
+	font-size:1rem;
+	border-style:none;
+	font-family: 'Arimo', sans-serif;
+	padding:8px;
+	color:#8bd4e6;
+	margin-top:3%;
+}
+.button2{
+	background-color:#8bd4e6;
+	border-radius:14px;
+	font-size:0.9rem;
+	border-style:none;
+	font-family: 'Arimo', sans-serif;
+	padding:5px;
+	color:#ffffff;
+}
+
 .button:hover{
 	background-color:#ec6826;
 
+}
+
+.button2:hover{
+	background-color:#ec6826;
+
+}
+
+.button3:hover{
+background-color:#ec6826;
 }
 /*found this from http://stackoverflow.com/questions/20626310/css-background-color-doesnt-work-unless-a-height-is-specified-or-its-floated
 */
 
 
 /*class styling (ie. navbar)*/
+.add-to-cart{
+
+
+background-color:#8bd4e6;
+height:200px;
+width:200px;
+ top: 0px;
+ right: 0px;
+text-align:center;
+opacity:0.8;
+position:absolute;
+	font-size:0.9rem;
+	font-family: 'Arimo', sans-serif;
+	line-height:1.4em;
+}
+.continue{
+	width:100%;
+	text-align:right;
+}
+
+.cart-info{
+padding-left:10%;
+letter-spacing:0.1rem;
+padding:10%;
+}
+
+textarea{
+width: 50%;
+}
 
 .review-title{
 	margin:0px;
@@ -152,6 +213,7 @@ form label {
 }
 .star-rating{
 	width:25px;
+	height:25px;
 }
 
 .reviews{
@@ -320,6 +382,7 @@ background-repeat:repeat;
 	color:#ffffff;
 	font-size:2rem;
 }
+
 .banner-subtext{
 	font-size:1.7rem;
 }
@@ -337,6 +400,7 @@ background-repeat:repeat;
 	font-size: 3em;
 
 }
+
 
 .navigation-wrapper{
 
@@ -457,6 +521,19 @@ Responsive Stuff*/
 	.knitkittylogo{
 		width:65%;
 	}
+	
+	.banner-subtext2{
+	font-size:0.8rem;
+}
+	.banner-text-white{
+	font-size:1.6rem;
+	}
+	.bubble a{
+	font-size:1rem;
+	}
+	.banner-text{
+	font-size:1.7rem;
+	}
  }
 
 
@@ -472,6 +549,11 @@ Responsive Stuff*/
 		font-size:1.1rem;
 		padding:1rem;
 		width:50%;
+	}
+	
+	.sidebar-links li{
+	width:100%;
+	text-align:center;
 	}
 
 	.icon{    							
@@ -540,6 +622,10 @@ Responsive Stuff*/
 	.right{
 		text-align:left;
 
+	}
+	
+	textarea{
+	width:90%;
 	}
 } 
 
